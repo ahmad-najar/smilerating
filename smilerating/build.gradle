@@ -46,7 +46,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.onmarekts'
+                groupId = 'net.onmarekts'
                 artifactId = 'smilerrating'
                 version = '1.0'
             }

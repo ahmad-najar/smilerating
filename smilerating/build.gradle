@@ -46,9 +46,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'net.onmarekts'
+                groupId = 'com.github.ahmad-najar'
                 artifactId = 'smilerrating'
-                version = '1.0'
+                version = '1.0.0'
             }
         }
     }
